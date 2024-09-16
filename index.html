@@ -5,7 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" />
     <title>EBiB Score Card</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="style.scss" />
+    <script>
+         
+        // Get HTML head element
+        let head = document.getElementsByTagName('HEAD')[0];
+ 
+        // Create new link Element
+        let link = document.createElement('link');
+ 
+        // set the attributes for link element
+        link.rel = 'stylesheet';
+     
+        link.type = 'text/css';
+     
+        link.href = 'style.css';
+ 
+        // Append link element to HTML head
+        head.appendChild(link);
+    </script>
     <script src="app.js"></script>
   </head>
   <body>
