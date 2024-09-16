@@ -1,0 +1,70 @@
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <h1>This is a Heading</h1>
+    <p>This is a paragraph.</p>
+    <script src = "app.js"></script>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" />
+    <title>EBiB Score Card</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.scss" />
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <div>
+      <div class="width-img">
+        <img class="img" src="images/scorecard.jpeg" />
+        <div class="lower-div">
+          <div class="team-logo-div">
+            <div style="display: flex; flex-direction: row;">
+              <img
+                class="visiblity_none team_1_logo"
+                id="output_image1"
+                height="120px"
+                width="120px"
+              />
+              <input
+                class="visiblity_yes"
+                id="input1"
+                type="file"
+                accept="image/*"
+                style="width: 85px; height: fit-content;"
+                onchange="preview_image1(event)"
+              />
+              <input type="text" style="font-size: 88px; width: 50px; font-weight: 700;" placeholder="score 1" />
+            </div>
+          </div>
+          <div class="team-logo-div">
+            <div style="display: flex; flex-direction: row-reverse;">
+              <img
+                class="visiblity_none team_2_logo"
+                id="output_image2"
+                height="120px"
+                width="120px"
+              />
+              <input
+                class="visiblity_yes"
+                id="input2"
+                type="file"
+                accept="image/*"
+                style="width: 85px; height: fit-content;"
+                onchange="preview_image2(event)"
+              />
+              <input type="text" style="font-size: 88px; width: 50px; font-weight: 700;" placeholder="score 2"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

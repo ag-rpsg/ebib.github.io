@@ -1,0 +1,67 @@
+.main-div {
+    display: flex;
+    max-height: 707px !important;
+}
+
+.width-img {
+    width: 500px;
+    height: 707px !important;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.img {
+    width: -webkit-fill-available;
+}
+
+.lower-div {
+    position: absolute;
+    width: 500px;
+    height: 30%;
+    display: flex;
+    z-index: 1;
+    margin-top: -200px !important;
+    justify-content: space-around
+}
+
+.team-logo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 70%;
+    margin: 10px;
+    // background-color: antiquewhite;
+}
+
+.visiblity_none {
+    visibility: hidden;
+    // display: none;
+}
+
+.visiblity_yes {
+    visibility: visible;
+}
+
+.team_1_logo {
+    // margin-left: 10%;
+}
+
+.team_2_logo {
+    // margin-right: 10%;
+}
+
+input,
+select,
+textarea {
+border: none;
+//   margin: 10px 0 0 0;
+//   width: 100%;
+//   min-height: 2em;
+//   max-height: 4em;
+//   height: 3em;
+//   border-radius: 10px;
+
+  background-color: var(--background-col);
+  color: var(--text-col);
+}
