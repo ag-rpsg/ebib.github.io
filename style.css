@@ -1,11 +1,11 @@
 .main-div {
     display: flex;
-    max-height: 707px !important;
+    max-height: 625px !important;
 }
 
 .width-img {
     width: 500px;
-    height: 707px !important;
+    height: 625px !important;
     display: flex;
     flex-direction: column-reverse;
 }
@@ -17,7 +17,7 @@
 .lower-div {
     position: absolute;
     width: 500px;
-    height: 30%;
+    height: 18%;
     display: flex;
     z-index: 1;
     margin-top: -200px !important;
@@ -46,5 +46,5 @@ select,
 textarea {
 border: none;
   background-color: var(--background-col);
-  color: var(--text-col);
+  color: white;
 }
